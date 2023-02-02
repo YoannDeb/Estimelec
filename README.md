@@ -1,2 +1,5 @@
-# estimelec
-Django project for estimation of device electrical consumption
+# Estimelec
+
+## Description:
+
+Django project for estimation of device electrical consumption.
