@@ -39,7 +39,6 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     objects = CustomUserManager()
 
     USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['first_name', 'last_name']
     readonly_fields = ['date_created', 'date_updated']
 
     def __str__(self):
